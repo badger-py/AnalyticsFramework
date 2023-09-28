@@ -1,6 +1,3 @@
-// install requirements to actually run mypy
-// + figure out what is secrets.GITHUB_TOKEN
-
 name: MyPy static type checker
 on: [push]
 jobs:
