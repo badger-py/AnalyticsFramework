@@ -9,7 +9,7 @@ jobs:
       - name: Setup Python
         uses: actions/setup-python@v1
         with:
-          python-version: {{ steps.GetPythonVersion.outputs.python_version }}
+          python-version: ${{ steps.GetPythonVersion.outputs.python_version }}
           architecture: x64
       - name: Checkout
         uses: actions/checkout@v1
